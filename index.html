@@ -3,38 +3,58 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="crossorigin="anonymous"></script>
+    <script src="js/myjs.js"></script>
     <style>
-        
     </style>
 </head>
 
 <body>
     
-        <nav id="navi">
-            <ul>
-               <li id=""><img src="img/avatar.png"></li>
-               <li id=""><a href="#home">HOME</a></li>
-               <li id=""><a href="#about">ABOUT</a></li>
-               <li id=""><a href="#portfolio">PORTFOLIO</a></li>
-               <li id=""><a href="#contact">CONTACT</a></li>
-
-            </ul>
-        </nav>      
-
-    
-    <div class="parallax"> FIRST CONTENT</div>
-
-    <div style="height:1000px;background-color:red;font-size:36px">
-        COLOR TEST
-        SECOND CONTENT
+    <nav id="navi">
+        <ul>
+            <li id="list" ><img src="img/avatar.png"></li>
+            <li id="list" ><a href="#home">HOME</a></li>
+            <li id="list" ><a href="#about">ABOUT</a></li>
+            <li id="list" ><a href="#portfolio">PORTFOLIO</a></li>
+            <li id="list" ><a href="#contact">CONTACT</a></li>
+            
+        </ul>
+    </nav>      
+        
+    <div id="home" class="parallax"> 
+        <div class="slantedDivA">
+            
+        </div>
     </div>
-
-    <div class="parallax"></div>
-
-
-
-
+    
+    <div id="about" class="non-parallax" style="height:1000px; ;font-size:36px">
+        <div id="portfolio" class="slantedDivB">
+            sdfsfdsdf
+        </div>
+    </div>
+    
+    <div class="parallax">
+        <div id="portfolio" class="slantedDivB">
+            sdfsfdsdf
+        </div>
+    </div>
+    
+    <div id="contact" class="non-parallax">
+        fdlgldflg
+    </div>
+    <div id="contact" class="non-parallax">
+        <footer>
+            All rights reserved Nathaniel Budikey 2018 
+        </footer>
+    </div>
+    
+    
+    
+    
+    
+    
 </body>
 
 </html>
