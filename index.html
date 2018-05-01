@@ -2,59 +2,442 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>N</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="crossorigin="anonymous"></script>
-    <script src="js/myjs.js"></script>
-    <style>
-    </style>
 </head>
 
-<body>
-    
-    <nav id="navi">
-        <ul>
-            <li id="list" ><img src="img/avatar.png"></li>
-            <li id="list" ><a href="#home">HOME</a></li>
-            <li id="list" ><a href="#about">ABOUT</a></li>
-            <li id="list" ><a href="#portfolio">PORTFOLIO</a></li>
-            <li id="list" ><a href="#contact">CONTACT</a></li>
+<body>  
+        <div id="particles-js">
+
+<div class="container">
+    <div class="grid-container">
+        <div class="grid menu">
+            <div class=" logo">
+                <div class="mylogo">
+                    <img src="img/logow.svg" id="logo" alt="">
+                </div>
+            </div>
+            <div class="item-mainmenu">
+                <div class="menu-line">
+                    <div class="main-menu-icon">
+                        <a href="#">
+                            <div class="hmbgr">
+                                <span class="hamburger hamburger-top"></span>
+                                <span class="hamburger hamburger-mid"></span>
+                                <span class="hamburger hamburger-bottom"></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid content">
+            <div class="main-content">
+                <div class="content-top">
+                    <main id="interface" class="pages c-interface">
+                        <div id="link">
+                            <div class="svg-wrapper">
+                                <a href="#home" class="click-home">
+                                    <svg height="100%" width="100%">
+                                        <rect class="shape-h" height="100%" width="100%" />
+                                    </svg>
+                                    <div class="text">home</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="link">
+                            <div id="rect-portfolio" class="svg-wrapper">
+                                <a href="#portfolio" class="click-portfolio">
+                                    <svg height="100%" width="100%">
+                                        <rect class="shape-p" height="100%" width="100%" />
+                                    </svg>
+                                    <div class="text">portfolio</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="link">
+                            <div id="rect-about" class="svg-wrapper">
+                                <a href="#about" class="click-about">
+                                    <svg height="100%" width="100%">
+                                        <rect class="shape-a" height="100%" width="100%" />
+                                    </svg>
+                                    <div class="text">about</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="link">
+                            <div id="rect-contact" class="svg-wrapper">
+                                <a href="#contact" class="click-contact">
+                                    <svg height="100%" width="100%">
+                                        <rect class="shape-c" height="100%" width="100%" />
+                                    </svg>
+                                    <div class="text">contact</div>
+                                </a>
+                            </div>
+                        </div>
+                    </main>
+                    <main id="home" class="pages c-home">
+                        <div class="home-container">
+                            <div class="me-img-home">
+                                <!--pic here-->
+                            </div>
+                            <div class="desc">
+                                <div class="hero-desc">
+                                    <div class="hero-txt ">
+                                        <label class="hero-iam">i am</label>
+                                    </div>
+                                    <div class="hero-txt">
+                                        <label class="hero-name"> nathaniel </label>
+                                    </div>
+                                    <div class="hero-txt">
+                                        <label class="hero-wd"> Web Developer </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                    <main id="portfolio" class="pages c-portfolio">
+                        <div class="p-container">
+                            <div id="sub" class="works-container">
+                                <div class="portfolio-txt">
+                                    <p style="color:#c83737; margin: 4% 0 0 10%; font-style:italic;font-size:1.3rem">Everything starts from somewhere...</p>
+                                </div>
+                                <div class="works-sub-con">
+                                    <section class="works work-1">
+                                        <div class="work-details">
+                                            <div class="work-title">WhereIs App</div>
+                                            <div class="work-wrapper">
+                                                <div class="work-tags">Javascript | Local Storage</div>
+                                                <hr>
+                                                <div class="work-description">
+                                                    <p>A simple personal directory.
+                                                        <br> Letting your co-workers, employees, etc.. where you are (if you
+                                                    want). </p>
+                                                </div>
+                                                <div class="work-btn-container">
+                                                    <span class="work-btn work-web">
+                                                        <a class="github-button" target="_blank" href="https://github.com/NatsBud/AceTracker">
+                                                            <button class=" btn-submit btn-link">GITHUB</button>
+                                                        </a>
+                                                    </span>
+                                                   <!-- <span class="work-btn work-demo">
+                                                        <a class="github-button demo-button" target="_blank" href="/">
+                                                            <button class="btn-submit btn-link">DEMO</button>
+                                                        </a>
+                                                    </span>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <section class="works work-2">
+                                        <div class="work-details">
+                                            <div class="work-title">Contact Form</div>
+                                            <div class="work-wrapper">
+                                                <div class="work-tags">PHP | Bootstrap </div>
+                                                <hr>
+                                                <div class="work-description">
+                                                    <p> A basic contact form.<br> With validation wherein the data will be send to your email. </p>
+                                                </div>
+                                                <div class="work-btn-container">
+                                                    <span class="work-btn work-web">
+                                                        <a class="github-button" target="_blank" href="https://github.com/NatsBud/Contact-Form">
+                                                            <button class=" btn-submit btn-link">GITHUB</button>
+                                                        </a>
+                                                    </span>
+                                                    <!--<span class="work-btn work-demo">
+                                                        <a class="github-button demo-button" target="_blank" href="/">
+                                                            <button class="btn-submit btn-link">DEMO</button>
+                                                        </a>
+                                                    </span> -->
+                                                </div>
+                                            </div>
+                                        </div>          
+                                    </section>
+                                    <section class="works work-3">
+                                        <div class="work-details">
+                                            <div class="work-title">PSD to HTML</div>
+                                            <div class="work-wrapper">
+                                                <div class="work-tags">HTML | CSS | Adobe Photoshop</div>
+                                                <hr>
+                                                <div class="work-description">
+                                                    <p> PSD file to HTML and CSS.
+                                                    <br> My very first PSD to HTML conversion. </p>       
+                                                </div>
+                                                <div class="work-btn-container">
+                                                    <span class="work-btn work-web">
+                                                        <a class="github-button" target="_blank" href="https://github.com/NatsBud/AceTracker">
+                                                            <button class=" btn-submit btn-link">GITHUB</button>
+                                                        </a>
+                                                    </span>
+                                                   <!--<span class="work-btn work-demo">
+                                                        <a class="github-button demo-button" target="_blank" href="/">
+                                                            <button class="btn-submit btn-link">DEMO</button>
+                                                        </a>
+                                                    </span>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <section class="works work-4">
+                                        <div class="work-details">
+                                            <div class="work-title">Basic PHP CRUD</div>
+                                            <div class="work-wrapper">
+                                                <div class="work-tags">Bootstrap | PHP | MYSQL </div>
+                                                <hr>
+                                                <div class="work-description">
+                                                    <p> A basic Create, Read, Update, Delete in PHP. <br>
+                                                        This uses Bootstrap as its front-end.
+                                                    </p>
+                                                </div>
+                                                <div class="work-btn-container">
+                                                    <span class="work-btn work-web">
+                                                        <a class="github-button" target="_blank" href="https://github.com/NatsBud/CRUD-php">
+                                                            <button class=" btn-submit btn-link">GITHUB</button>
+                                                        </a>
+                                                    </span>
+                                                  <!--  <span class="work-btn work-demo">
+                                                        <a class="github-button demo-button" target="_blank" href="/">
+                                                            <button class="btn-submit btn-link">DEMO</button>
+                                                        </a>
+                                                    </span>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <section class="works work-5">
+                                        <div class="work-details">
+                                            <div class="work-title">Basic Javascript Exercises</div>
+                                            <div class="work-wrapper">
+                                                <div class="work-tags">HTML | CSS | Javascript </div>
+                                                <hr>
+                                                <div class="work-description">
+                                                    <p> Some of my javascript exercises. <br>
+                                                        Temp Conversion, Odd 0r Even, Determine larger number.
+                                                    </p>
+                                                </div>
+                                                <div class="work-btn-container">
+                                                    <span class="work-btn work-web">
+                                                        <a class="github-button" target="_blank" href="https://github.com/NatsBud/Wk2-Challenges/tree/master/Day2-jscript">
+                                                            <button class=" btn-submit btn-link">GITHUB</button>
+                                                        </a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <section class="works work-6">
+                                        <div class="work-details">
+                                            <div class="work-title">Basic Clock</div>
+                                            <div class="work-wrapper">
+                                                <div class="work-tags">PHP | Javascript </div>
+                                                <hr>
+                                                <div class="work-description">
+                                                    <p> Basic digital and analog clock. <br>
+                                                        Shows Time of different places using PHP.
+                                                    </p>
+                                                </div>
+                                                <div class="work-btn-container">
+                                                    <span class="work-btn work-web">
+                                                        <a class="github-button" target="_blank" href=" https://github.com/NatsBud/challenge2">
+                                                            <button class=" btn-submit btn-link">GITHUB</button>
+                                                        </a>
+                                                    </span>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!--
+                                <section class="works">work7</section>
+                            <section class="works">work8</section>
+                        <section class="works">work9</section>
+                    <section class="works">work10</section>
+                    -->
+                    <br>
+                </div>
+            </div>
+        </main>
+        <main id="about" class="pages c-about">
+            <div class="about-container">
+                <div class="sub-abt abt-img">
+                    <!--pic here-->
+                </div>
+                <div class="sub-abt abt-text">
+                    <div class="me">
+                        <p class=" me-header whois">Who is </p>
+                        <hr>
+                        <p>
+                            <div> <span style="font-size:2rem">I'm</span> an aspiring
+                            <span>fullstack web developer</span>.
+                            <br> It is my passion to create unique and finely crafted websites that portray
+                            <span>simplicity</span> and
+                            <span>elegance</span>.
+                            <br>
+                            Currently, Iam focusing in honing my skills to be the
+                            <span>best</span> in everything I do.
+                        </p>
+                        <p>I spend my
+                            <span>free time</span> infront of my laptop
+                            <span>learning new trends</span> and technologies in web development, if not, I'm on the
+                            <span>basketball</span> court playing with my great buddies.
+                        </p>
+                        <p>
+                            I grew up in
+                            <span>Gusaran, Kabayan, Benguet</span>.
+                            <br> Iam an
+                            <span>Ibaloi</span>
+                        </p>
+                    </div>
+                    <div class="abt-site">
+                        <p class="me-header">This site</p>
+                        <hr>
+                        <p>This
+                            <span>website</span> is the very first one that i made.</p>
+                            <p>Build on
+                                <span> wordpress</span> using my own
+                                <span>customized theme</span>.</p>
+                                <p>This site will always be a
+                                    <span>work in progress</span> as I discover new and better ways and methods in rendering
+                                websites at its best.</p>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <main id="contact" class="pages c-contact">
+                    <div class="contact-container">
+                        <h1>Contact </h1>
+                        <p style="font-style:italic; color:#343434">Let's bring your great idea into reality!
+                            <br>
+                            <br> Feel free to
+                            <span style="font-style:normal; color:#c83737">send me message.</span>
+                        </p>
+                        <form id="user-form" method="post" onsubmit="submitForm(); return false;">
+                            <div class="frm-container">
+                                <div class="frm-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-all">
+                                        <path d="M256 0c88.366 0 160 71.634 160 160s-71.634 160-160 160S96 248.366
+                                            96 160 167.634 0 256 0zm183.283 333.821l-71.313-17.828c-74.923 53.89-165.738
+                                            41.864-223.94 0l-71.313 17.828C29.981 344.505 0 382.903 0 426.955V464c0 26.51
+                                            21.49 48 48 48h416c26.51 0 48-21.49 48-48v-37.045c0-44.052-29.981-82.45-72.717-93.134z"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <div class="frm-line">
+                                        <input type="text" name="name" id="name" class="frm-input" placeholder="Your name">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="frm-container">
+                                    <div class="frm-icon ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-all">
+                                            <path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5
+                                                0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1
+                                                15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256
+                                                320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5
+                                                9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2
+                                                18.9 30.6 23.9 40.732.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z" />
+                                            </svg>
+                                        </div>
+                                        <div class="frm-line">
+                                            <input type="text" name="email" id="email" class="frm-input" placeholder="Your email">
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="frm-container">
+                                        <div class="frm-icon mail-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-all">
+                                                <path d="M448 0H64C28.7 0 0 28.7 0 64v288c0 35.3 28.7 64 64 64h96v84c0 9.8 11.2
+                                                    15.5 19.1 9.7L304 416h144c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64z"
+                                                    />
+                                                </svg>
+                                            </div>
+                                            <div class="frm-line">
+                                                <textarea type="text" name="message" id="message" form="user-form" class="frm-input text-area" placeholder="Your Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="frm-container ">
+                                            <div class="frm-icon validation">
+                                                <span id="status"></span>
+                                            </div>
+                                            <div class="frm-line send">
+                                                <div>
+                                                    <button type="submit" name="submit" id="buttonSubmit" class="btn-submit">SEND</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </main>
+                    </div>
+                </div>
             
-        </ul>
-    </nav>      
-        
-    <div id="home" class="parallax"> 
-        <div class="slantedDivA">
-            
+                
+                <div class="btm-container">
+                        <div class="content-btm">
+                            <div class="bottom socials">
+                                <span class="linkedin">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-all svg-socials">
+                                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path>
+                                        </svg>
+                                    </a>
+                                </span>
+                                <span class="facebook">
+                                    <a href="https://www.facebook.com/nbud1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-all svg-socials">
+                                            <path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"></path>
+                                        </svg>
+                                    </a>
+                                </span>
+                            </div>
+                           
+                            <div class="bottom locate">
+                                <div class="location"><div class="north"> N: 16' 39' 18.095<span style="opacity:0">/</span><span class="location-divider">/<span style="opacity:0">/</span></span></div><div class="east">  E: 120' 50' 7.936</div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    
-    <div id="about" class="non-parallax" style="height:1000px; ;font-size:36px">
-        <div id="portfolio" class="slantedDivB">
-            sdfsfdsdf
-        </div>
-    </div>
-    
-    <div class="parallax">
-        <div id="portfolio" class="slantedDivB">
-            sdfsfdsdf
-        </div>
-    </div>
-    
-    <div id="contact" class="non-parallax">
-        fdlgldflg
-    </div>
-    <div id="contact" class="non-parallax">
-        <footer>
-            All rights reserved Nathaniel Budikey 2018 
-        </footer>
-    </div>
-    
-    
-    
-    
-    
-    
+</div>
+
+
+        <script>
+                function submitForm() {
+                document.getElementById("buttonSubmit").disabled = true;
+                var formdata = new FormData();
+                formdata.append("name", document.getElementById("name").value);
+                formdata.append("email", document.getElementById("email").value);
+                formdata.append("message", document.getElementById("message").value);
+                var ajax = new XMLHttpRequest();
+                ajax.open("POST", "<?php echo get_template_directory_uri(); ?>/mycontactform.php");
+                ajax.onreadystatechange = function () {
+                if (ajax.readyState == 4 && ajax.status == 200) {
+                if (ajax.responseText == "success") {
+                document.getElementById("status").innerHTML = '<span>Thanks ' + document.getElementById("name").value + ' , your message has been sent. </span>';
+                document.querySelector(".text-area").style = "45px";
+                } else {
+                document.getElementById("status").innerHTML = ajax.responseText;
+                document.getElementById("buttonSubmit").disabled = false;
+                }
+                }
+                }
+                ajax.send(formdata);
+                }
+                </script>
+                <script src="/js/main.js"></script>
+                 <script src="/js/particles.min.js"></script>
+                  <script src="/js/app.js"></script>
+
+
+
 </body>
 
 </html>
