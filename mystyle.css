@@ -4,21 +4,15 @@ p,h1,h2,h3,h4,h5,h6,div,a {
     line-height   : normal;
     letter-spacing: normal;
 }
-
 h1,h2, h3,h4,h5,h6,p{
     font-family: "Georgia regular",
     Times,
     Times New Roman,
-    serif;
-   
+    serif;   
 }
-
 .mycontainer {
-    /*  width     : 1000px;
-      height    : 1619px; */
       background: #191919;
 }
-
 .logo{
     padding      : 57px 0 37px 0;
     border-bottom: 1px solid #676767;
@@ -29,8 +23,7 @@ h1,h2, h3,h4,h5,h6,p{
 
 .logo h1 {
     color    : #cccccc;
-    font-size: 32px;
-    
+    font-size: 32px;  
 }
 
 .logo-text{ 
@@ -71,7 +64,6 @@ h1,h2, h3,h4,h5,h6,p{
 .my-slider-indicator{
     height: 100px;
 }
-
 /** END OF ADDED CAROUSEL  */
 
 .contact {
@@ -91,7 +83,6 @@ flex-direction: column;
     text-align    : end;
     padding-bottom: 11px;
 }
-
 
 /*SEARCH BOX */
 .my-search-input {
@@ -121,15 +112,13 @@ flex-direction: column;
 .nav-menu{
      margin   : 0 auto;
      max-width: 960px;
-     width    : 100%
-    
+     width    : 100% 
 }
 .mynav {
     margin         : 33px 0 27px 0;
     display        : flex;
     justify-content: center;
-    background     : linear-gradient(#333333 50%, #2b2b2b 50%);
-    
+    background     : linear-gradient(#333333 50%, #2b2b2b 50%);   
 }
 ul{
     background   : #333333;
@@ -137,7 +126,6 @@ ul{
 }
 ul li{
     padding: 13px 15px 17px 15px;
-   
 }
 ul li a{ 
     font-family    : "Georgia regular";
@@ -149,8 +137,7 @@ ul li a{
 
 ul li a:hover{
     color          : #ff9900;
-    text-decoration: none;
-   
+    text-decoration: none; 
 }
 
 /*END OF NAVIGATION*/
@@ -189,14 +176,12 @@ ul li a:hover{
     border       : 20px solid #333333;
     width        : 100%;
     z-index      : 1;
-
 }
 
 .needatxt{
     font-size: 2rem;
     color    : #ffffff;
-    padding  : 0 10px 10px 0;
-    
+    padding  : 0 10px 10px 0; 
 }
 
 .servicestxt {
@@ -215,8 +200,7 @@ ul li a:hover{
     color     : #ffffff;
     height    : 58px;
     max-width : 280px;
-    width     : 100%;
-    
+    width     : 100%;  
 }
 
 .my-sub-footer{
@@ -226,9 +210,7 @@ ul li a:hover{
     border-radius   : 5px;
     max-height      : 506px ;
     max-width       : 960px;
-    width           : 100%;
-    
-    
+    width           : 100%; 
 }
 
 
@@ -236,8 +218,7 @@ ul li a:hover{
     max-width : 960px;
     width     : 100%;
     border-top: 1px solid #333333;
-    margin    : auto;
-    
+    margin    : auto;  
 }
 
 .my-footer p{
@@ -267,8 +248,7 @@ ul li a:hover{
   }
 .mynav-down ul li{
     list-style: none;
-    display   : block;
-
+   display   : block;
 }
 .mynav-down ul li a{
     text-decoration: none;
